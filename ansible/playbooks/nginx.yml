@@ -1,0 +1,7 @@
+---
+- name:  Install Nginx 
+  hosts: app
+  become: true  
+  roles:
+    # - app
+    - jdauphant.nginx
